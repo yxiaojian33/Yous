@@ -1,0 +1,9 @@
+/**
+ * 此文件用于定义工程内的模块依赖
+ */
+
+ext.proj_modules = [:]
+
+def common = [:]
+common.common_utils = project(':common:common-utils')
+proj_modules.common = common
