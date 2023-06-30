@@ -6,4 +6,5 @@ ext.proj_modules = [:]
 
 def common = [:]
 common.common_utils = project(':common:common-utils')
+common.common_ui = project(':common:common-ui')
 proj_modules.common = common

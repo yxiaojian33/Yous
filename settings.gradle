@@ -16,3 +16,4 @@ rootProject.name = "Yous"
 include ':app'
 include ':common'
 include ':common:common-utils'
+include ':common:common-ui'
